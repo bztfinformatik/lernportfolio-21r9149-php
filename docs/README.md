@@ -1,45 +1,33 @@
-# Hello, Docsify!
+# M133 Web-Applikationen mit Session Handling realisieren
 
-> A Docsify starter, with local PlantUML server
+Dieses Wiki enthält sämtliche Dokumentationen und eigene Notitzen zum M133.
 
-This repo just sets up a basic docsify environment:
+Dieses Wiki wurde mit [Docsify](https://docsify.js.org/#/) erstellt, der Sourcecode zu dieser Wiki findet man in meiner [Github repo.](https://github.com/bztfinformatik/lernportfolio-21r9149-php)
+Das Theme und die Grundstruktur habe ich von [posthtml](https://github.com/posthtml/posthtml/) übernommen und für meine Zwecke modifiziert.
+<details>
+<summary>Copyright (c) 2015 PostHTML</summary>1
+<pre>
+<br>
+MIT License
 
-* [Docker Compose](https://docs.docker.com/compose/) to setup and run:
-  * [A Docsify container](https://docsify.js.org/), listening on Port 10000
-  * [A local PlantUML server](https://plantuml.com/), listening on Port 10001
+Copyright (c) 2015 PostHTML
 
-## Use docker-compose
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
 
-To get started quickly, just do:
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
 
-```
-$ git clone https://github.com/bylexus/docsify-starter.git
-$ cd docsify-starter
-$ docker-compose up
-```
-
-There are now 2 containers running:
-
-* `docsify`: Docsify on Port 10000 (So browse to http://localhost:10000)
-* `plantuml`: PlantUML server on Port 10001 ( generate PlantUML on the fly: http://localhost:10001/png/SyfFKj2rKt3CoKnELR1Io4ZDoSa70000)
-
-Feel free to adapt the `docker-compose.yml` file as needed!
-
-If you need to interact with `docsify-cli`, do so through docker:
-
-```
-$ docker exec -ti docsify docsify help
-```
-
-Your docsify docs are in the `docs/` dir. Feel free to edit them as needed!
-
-## Note for git users
-
-This Repo is meant as template. After cloning, feel free to delete the `.git` dir, and init your own git, e.g.:
-
-```
-$ git clone https://github.com/bylexus/docsify-starter.git
-$ cd docsify-starter
-$ rm -rf .git
-$ git init
-```
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+</pre>
+</details>
