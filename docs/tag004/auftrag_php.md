@@ -4,7 +4,6 @@
 >   - [Hello World!](#hello-world)
 >   - [Kommentare](#kommentare)
 >   - [Variablen](#variablen)
->   - [Variabletypen](#variablentypen)
 
 
 ## PHP Einfuerung
