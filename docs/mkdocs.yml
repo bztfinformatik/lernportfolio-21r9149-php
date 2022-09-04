@@ -1,0 +1,103 @@
+site_name: M133 - PHP
+
+theme:
+    name: material
+    palette:
+        - media: "(prefers-color-scheme: light)"
+          scheme: default
+          toggle:
+              icon: material/weather-sunny
+              name: Switch to dark mode
+        - media: "(prefers-color-scheme: dark)"
+          scheme: slate
+          toggle:
+              icon: material/weather-night
+              name: Switch to light mode
+    language: de
+    font:
+        text: Roboto
+    icon:
+        repo: fontawesome/brands/github-alt
+    features:
+        - navigation.instant
+        - navigation.tracking
+        - navigation.tabs
+        - navigation.top
+        - navigation.indexes
+        - search.share
+        - content.code.annotate
+        - content.tabs.link
+
+extra_css:
+    - assets/css/custom.css
+
+copyright: Copyright &copy; 2022 Doku Autor
+
+repo_url: https://github.com/bztfinformatik/lernportfolio-21r9149-php
+repo_name: 21r9149/Sourcecode
+edit_uri: https://github.com/bztfinformatik/lernportfolio-21r9149-php/tree/master/docs
+
+extra:
+    social:
+        - icon: fontawesome/brands/github
+          link: https://github.com/bztfinformatik/lernportfolio-21r9149-php
+          name: 21r9149 on GitHub
+
+markdown_extensions:
+    # Python Markdown
+    - abbr
+    - admonition
+    - attr_list
+    - def_list
+    - footnotes
+    - md_in_html
+    - toc:
+          permalink: "#"
+    - pymdownx.emoji:
+          emoji_generator: !!python/name:materialx.emoji.to_svg
+          emoji_index: !!python/name:materialx.emoji.twemoji
+
+    - pymdownx.arithmatex:
+          generic: true
+    - pymdownx.betterem:
+          smart_enable: all
+    - pymdownx.caret
+    - pymdownx.details
+    - pymdownx.highlight:
+          anchor_linenums: true
+    - pymdownx.inlinehilite
+    - pymdownx.keys
+    - pymdownx.mark
+    - pymdownx.smartsymbols
+    - pymdownx.superfences
+    - pymdownx.snippets:
+          base_path: docs
+    - pymdownx.tabbed:
+          alternate_style: true
+    - pymdownx.tasklist:
+          custom_checkbox: true
+
+plugins:
+    - search:
+          lang:
+              - de
+    - tags:
+          tags_file: "Tags.md"
+#     - redirects:
+#           redirect_maps:
+#               "Inhaltsverzeichnis.md": "Tags.md"
+
+nav:
+    - Startseite:
+          - Startseite: "index.md"
+          - Inhaltsverzeichnis: "Tags.md"
+    - Reflexion:
+          - Tag 1: "reflexion/01.md"
+          - Tag 2: "reflexion/02.md"
+    - PHP:
+          - PHP Grundlagen: "php/php_grundlagen.md"
+          - Rechnen mit Variablen: "php/rechnen_mit_variablen.md"
+          - $_GET und $_POST: "php/get_and_post.md"
+          - Arrays: "php/arrays.md"
+    - Appendix:
+          - Docker Grundlagen: "appendix/docker.md"
