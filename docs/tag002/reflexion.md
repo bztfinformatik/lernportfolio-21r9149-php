@@ -8,7 +8,7 @@
 Auf dem Wissen der letzten Lektion aufbauend haben wir heute mit dem ersten Basisprojekt gestartet. Im Plenum haben wir die Struktur und funktionsweise mit Docker besprochen und getestet.<br>
 Im [php-einfach](https://www.php-einfach.de/) Skript haben wir die Kapitel [Rechnen mit Variablen](https://www.php-einfach.de/php-tutorial/rechnen-mit-variablen/), [$_GET und $_POST](https://www.php-einfach.de/php-tutorial/_get-und-_post/) und [Arrays](https://www.php-einfach.de/php-tutorial/php-array/) durchgearbeitet. Das wichtigste zu den Kapitel habe ich unter [PHP-Grundlagen](/tag002/php-grundlagen.md) Dokumentiert.
 
-Um das aus dem Skript erlente, anzuwenden haben wir den ersten [Programmierauftrag](/tag002/programmierauftrag.md.md) gelöst.
+Um das aus dem Skript erlernte, anzuwenden haben wir den ersten [Programmierauftrag](/tag002/programmierauftrag.md.md) gelöst.
 
 
 ## Learnings
