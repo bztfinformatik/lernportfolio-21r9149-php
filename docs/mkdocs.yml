@@ -94,11 +94,15 @@ nav:
     - Reflexion:
           - Tag 1: "reflexion/01.md"
           - Tag 2: "reflexion/02.md"
+          - Tag 3: "reflexion/03.md"
     - PHP:
           - PHP Grundlagen: "php/php_grundlagen.md"
           - Rechnen mit Variablen: "php/rechnen_mit_variablen.md"
           - $_GET und $_POST: "php/get_and_post.md"
           - Arrays: "php/arrays.md"
+          - Formulare mit $_Get und $_Post: "php/formulare_get_and_post.md"
+          - Arbeitsweise mit Datentypen: "php/arbeitsweise_mit_datentypen.md"
     - Appendix:
           - Docker Grundlagen: "appendix/docker.md"
           - 1. Programmierauftrag: "appendix/01programmierauftrag.md"
+          - 2. Programmierauftrag: "appendix/02programmierauftrag.md"
