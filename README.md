@@ -5,26 +5,8 @@
 
 ---
 
-> Autor: Manuel Schumacher <br>
-> Modul: M133
 
-[Live Demo 🖨]()
-
-[Doku 📚](https://bztfinformatik.github.io/lernportfolio-21r8390-php/)
 
 ## How To:
 
 > Doku starten: `docker compose up`
-
-## Commits
-
-| Icon | Meaning       |
-| :--: | ------------- |
-|  📚  | Content       |
-|  💬  | Documentation |
-|  🦄  | Refactoring   |
-|  🤡  | Fix / Issue   |
-|  🥞  | Mixed / Merge |
-|  👷  | Automation    |
-|  📝  | Setting       |
-|  💥  | Hotfix        |
