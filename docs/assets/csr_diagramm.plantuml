@@ -1,0 +1,16 @@
+@startuml csr_diagramm
+
+actor browser
+database server
+
+browser -> server: User requests a Website
+activate server
+return HTML-File with links to JS
+activate browser
+browser -> browser: Downloads JS
+browser -> browser: executes JS
+browser -> server: API request
+activate server
+return API resposnd
+browser -> browser: The data from the APIs fill the placeholders and the page is now interactiv
+@enduml

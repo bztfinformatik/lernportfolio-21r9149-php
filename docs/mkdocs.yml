@@ -95,6 +95,7 @@ nav:
           - Tag 1: "reflexion/01.md"
           - Tag 2: "reflexion/02.md"
           - Tag 3: "reflexion/03.md"
+          - Tag 4: "reflexion/04.md"
     - PHP:
           - PHP Grundlagen: "php/php_grundlagen.md"
           - Rechnen mit Variablen: "php/rechnen_mit_variablen.md"
@@ -107,3 +108,4 @@ nav:
           - Docker Grundlagen: "appendix/docker.md"
           - 1. Programmierauftrag: "appendix/01programmierauftrag.md"
           - 2. Programmierauftrag: "appendix/02programmierauftrag.md"
+          - SSR & CSR: "appendix/SSR_&_CSR.md"
