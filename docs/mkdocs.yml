@@ -104,6 +104,7 @@ nav:
           - Formulare mit $_Get und $_Post: "php/formulare_get_and_post.md"
           - Arbeitsweise mit Datentypen: "php/arbeitsweise_mit_datentypen.md"
           - Kontrollstrukturen: "php/kontrollstrukturen.md"
+          - Arbeiten mit Dateien: "php/arbeiten_mit_dateien.md"
     - Appendix:
           - Docker Grundlagen: "appendix/docker.md"
           - 1. Programmierauftrag: "appendix/01programmierauftrag.md"
