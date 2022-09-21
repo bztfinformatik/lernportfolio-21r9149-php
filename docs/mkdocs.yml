@@ -96,6 +96,7 @@ nav:
           - Tag 2: "reflexion/02.md"
           - Tag 3: "reflexion/03.md"
           - Tag 4: "reflexion/04.md"
+          - Tag 5: "reflexion/05.md"
     - PHP:
           - PHP Grundlagen: "php/php_grundlagen.md"
           - Rechnen mit Variablen: "php/rechnen_mit_variablen.md"
@@ -105,6 +106,8 @@ nav:
           - Arbeitsweise mit Datentypen: "php/arbeitsweise_mit_datentypen.md"
           - Kontrollstrukturen: "php/kontrollstrukturen.md"
           - Arbeiten mit Dateien: "php/arbeiten_mit_dateien.md"
+          - OOP: "php/oop.md"
+          - MVC: "php/mvc.md"
     - Appendix:
           - Docker Grundlagen: "appendix/docker.md"
           - 1. Programmierauftrag: "appendix/01programmierauftrag.md"
