@@ -10,7 +10,7 @@ Beim MVC-Muster wird das Klassendesign in drei verschiedene  Kategorien untertei
 
 ## Das model
 
-Veim model wird der Zugriff auf die Datenbankstabellen Programmiert.
+Beim model wird der Zugriff auf die Datenbankstabellen Programmiert.
 
 ````php
 <?php
