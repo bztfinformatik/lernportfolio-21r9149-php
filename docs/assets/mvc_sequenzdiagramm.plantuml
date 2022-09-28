@@ -1,0 +1,10 @@
+@startuml csr_diagramm
+
+App -> App: __construct() wird aufgerufen
+App -> App: parseUrl() url wird aufgeteilt
+App -> HomeController: Controller mit Methode und Parameter werden aufgerufen
+HomeController -> UserModel: vererbte Methode(Controller) model() lädt das Model 
+HomeController -> UserModel: $name wird gesetzt
+HomeController -> indexView: vererbte Methode(Controller) view() lädt die View
+
+@enduml

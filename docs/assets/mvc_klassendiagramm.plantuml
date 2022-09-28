@@ -1,0 +1,49 @@
+@startuml mvc_klassendiagramm
+
+package Core <<Folder>> {
+    class App{
+        # controller: String
+        # method: String
+        # params: String[]
+
+        + __construct(): App
+        # parseUrl(): String[]
+    }
+
+    class Controller{
+        # model(String): void
+        # view(String, String[]): void
+    }
+}
+
+package controlleres <<Folder>> {
+    class contact{
+        + index(): void
+        + test(String, String): void
+    }
+
+    class home{
+        index(String): void
+        calc(int, int): void
+    }
+}
+
+package models <<Folder>> {
+    class User{
+        + name: varchar
+    }
+}
+
+package views <<Folder>> {
+    class calc
+    class index
+}
+
+App --> Controller
+Controller <|-- home
+Controller <|-- contact
+home --> index
+home --> calc
+home --> User
+
+@enduml
