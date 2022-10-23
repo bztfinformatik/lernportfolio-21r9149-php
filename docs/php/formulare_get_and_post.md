@@ -15,7 +15,6 @@
 ### Auswertung von Formularen
 
 === "Code"
-
     ``` php
     <?php
     echo "Eingetragener Vorname: ". $_GET['vorname']; # (1)
@@ -35,7 +34,6 @@
     1.  Variable wird aus der URL ausgelesen.
 
 === "Formular"
-
     <figure markdown>
       ![Get-Formular](/assets/get_formular.png)
       <figcaption>http://localhost:8080/index.php?vorname=test</figcaption>
