@@ -1,0 +1,63 @@
+@startuml
+(SSR / CSR)
+(MVC)
+(Template-Engine)
+(Use-Case)
+(Aktoren)
+(Funktionale Anforderung)
+(Testszenario)
+(Testfall)
+
+(Use-Case) ---> (Funktionale Anforderung)
+(Testszenario) ---> (Use-Case)
+(Use-Case) ---> (Use-Case)
+(Testfall) ---> (Testszenario)
+(Aktoren) ---> (Testfall)
+(MVC) ---> (Funktionale Anforderung)
+(Aktoren) ---> (Use-Case)
+(Template-Engine) --> (MVC)
+(SSR / CSR) --> (MVC)
+
+note left of (Funktionale Anforderung)
+ Was für Anforderungen hat das Produkt um den Zweck zu erfüllen.
+end note
+
+note left of (Use-Case)
+ Kurz-Beschreibung was ein System leisten soll.
+ Beinhaltet die erforderlichen Schnittstellen/systeme und kann auf andere Use-Case verweisen.
+end note
+
+note right of (MVC)
+ Model-View-Controller ist ein PHP Design Pattern. Hier wird das Klassendesign in die drei Kategorien unterteil:
+ - Model
+ - View
+ - Controller
+end note
+
+note left of (SSR / CSR)
+ Definiert wo der Code ausgeführt wird.
+ - Server Side Rendering
+ - Client Side Rendering
+end note
+
+note right of (Template-Engine)
+ Software, die eine Vorlagen-Datei verarbeitet und bestimmte Platzhalter darin ähnlich wie bei einem Formular durch jeweils aktuelle Inhalte ersetzt.
+ In unserem Projekt Twig
+end note
+
+note right of (Testszenario)
+ Beschreibt die Testumgebung und die Aktion die überprüft werden soll.
+end note
+
+note right of (Testfall)
+ Beschreibt konkret, welcher Button wie/wann/was auslösen soll oder eben nicht
+end note
+
+note right of (Aktoren)
+ Nutzer der Software, Rollen.
+end note
+
+@enduml
+
+
+
