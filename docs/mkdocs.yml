@@ -99,7 +99,8 @@ nav:
           - Tag 5: "reflexion/05.md"
           - Tag 6: "reflexion/06.md"
           - Tag 7: "reflexion/07.md"
-
+          - Tag 8: "reflexion/08.md"
+          - Tag 9: "reflexion/09.md"
     - PHP:
           - PHP Grundlagen: "php/php_grundlagen.md"
           - Rechnen mit Variablen: "php/rechnen_mit_variablen.md"
@@ -113,6 +114,10 @@ nav:
           - MVC: "php/mvc.md"
           - MVC 101: "php/mvc_101.md"
           - Twig Template: "php/twig_template.md"
+    - LB1:
+          - 1. Abgabe: "LB1/abgabe1.md"  
+    - LB2:
+          - Concept-Map: "LB2/concept_map.md"    
     - Appendix:
           - Docker Grundlagen: "appendix/docker.md"
           - 1. Programmierauftrag: "appendix/01programmierauftrag.md"

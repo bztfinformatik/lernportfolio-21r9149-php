@@ -1,0 +1,27 @@
+@startuml Diagramm Use-Cases
+actor Lehrmeister
+actor Schueler
+actor Lehrer
+actor Admin
+
+:Lehrmeister: --> (UC-001)
+:Schueler: --> (UC-001)
+:Lehrer: --> (UC-001)
+:Admin: --> (UC-001)
+"UC-001, Login" as (UC-001)
+
+:Lehrmeister: --> (UC-002)
+:Schueler: --> (UC-002)
+:Lehrer: --> (UC-002)
+"UC-002, Nachricht erstellen" as (UC-002)
+
+:Lehrmeister: --> (UC-003)
+:Schueler: --> (UC-003)
+:Lehrer: --> (UC-003)
+"UC-003, Antworten/Bestaetigen" as (UC-003)
+
+:Lehrmeister: --> (UC-004)
+:Schueler: --> (UC-004)
+:Lehrer: --> (UC-004)
+"UC-004, Fileupload" as (UC-004)
+@enduml
