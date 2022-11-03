@@ -38,10 +38,10 @@
     
 === "Aufruf"
 
-    ````php
+    ```php
     // Idee: Welches Twig-Template mit welchen Models rendern
     echo $twig->render('index.html', ['products' => $products]);
-    ````
+    ```
 
 ## Twig-Auftrag Design
 
@@ -50,7 +50,7 @@ Als erstes erstellt man das Basis Template, auf welches alle späteren Templates
 
 === "./views/base/layout.twig.html"
 
-    ````html
+    ```html
     <!doctype html>
     <html lang="en">
 
@@ -87,14 +87,14 @@ Als erstes erstellt man das Basis Template, auf welches alle späteren Templates
     </body>
 
     </html>
-    ````
+    ```
     
 - Mit `{{ include() }}` können weitere Templates eingebunden werden.
 - Mit ``{% block content %}`` & ``{% endblock %}`` wird ein bereich definiert der später durch ein Subtemplate überschrieben werden soll.
 
 === "./views/home/index.twig.html"
 
-    ````html
+    ```html
     {% extends "base/layout.twig.html" %}
 
     {% block content %}
@@ -102,7 +102,7 @@ Als erstes erstellt man das Basis Template, auf welches alle späteren Templates
     <!-- Überschreibt den Content-Block -->
     <h1> Dieser block wurde vom Subtemplate ./views/home/index.twig.html überschrieben <\h1>
     {% endblock %}
-    ````
+    ```
 - Mit `{% extends ""%}` wird das Basis-Layout eingebunden.
 - Mit `{% block content %}` & `{% endcontent %}` wird der definierte bereich im `extends` template überschrieben.
 
@@ -118,7 +118,7 @@ So können beliebig weitere templates erstellt werden welche auf das base/layout
     
     === "Controller"
 
-        ````php
+        ```php
         <?php
 
         class Flugzeug extends Controller
@@ -143,22 +143,22 @@ So können beliebig weitere templates erstellt werden welche auf das base/layout
                 array_push($this->flugzeugArray, $flugzeug);
             }
         }
-        ````
+        ```
 
     === "Model"
 
-        ````php
+        ```php
         <?php
         class Flugzeug
         {
             public string $name;
             public string $type;
         }
-        ````
+        ```
 
     === "View"
 
-        ````html
+        ```html
         {% extends "base/layout.twig.html" %}
 
         {% block content %}
@@ -186,4 +186,4 @@ So können beliebig weitere templates erstellt werden welche auf das base/layout
         </select>
 
         {% endblock %}
-        ````
+        ```
