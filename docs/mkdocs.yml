@@ -101,6 +101,8 @@ nav:
           - Tag 7: "reflexion/07.md"
           - Tag 8: "reflexion/08.md"
           - Tag 9: "reflexion/09.md"
+          - Tag 10: "reflexion/10.md"
+          - Tag 11: "reflexion/11.md"
     - PHP:
           - PHP Grundlagen: "php/php_grundlagen.md"
           - Rechnen mit Variablen: "php/rechnen_mit_variablen.md"
@@ -124,3 +126,4 @@ nav:
           - 1. Programmierauftrag: "appendix/01programmierauftrag.md"
           - 2. Programmierauftrag: "appendix/02programmierauftrag.md"
           - SSR & CSR: "appendix/SSR_&_CSR.md"
+          - Regex: "appendix/regex.md"
