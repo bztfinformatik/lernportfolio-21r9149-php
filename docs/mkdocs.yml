@@ -117,10 +117,13 @@ nav:
           - MVC 101: "php/mvc_101.md"
           - Twig Template: "php/twig_template.md"
     - LB1:
-          - 1. Abgabe: "LB1/abgabe1.md"  
+          - 1. Abgabe: "LB1/abgabe1.md"
+          - 2. Abgabe: "LB1/abgabe2.md"
+          - 3. Abgabe: "LB1/abgabe3.md"
     - LB2:
           - Concept-Map 1: "LB2/concept_map.md"
-          - Concept-Map 1: "LB2/concept_map2.md"
+          - Concept-Map 2: "LB2/concept_map2.md"
+          - Concept-Map 3: "LB2/concept_map3.md"
     - Appendix:
           - Docker Grundlagen: "appendix/docker.md"
           - 1. Programmierauftrag: "appendix/01programmierauftrag.md"

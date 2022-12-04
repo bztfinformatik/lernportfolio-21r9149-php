@@ -1,0 +1,59 @@
+@startuml "concept_map_3"
+
+
+(Datenbankverwaltungssysteme) <-- "ORDBMS" (PostgreSQL)
+(Datenbankverwaltungssysteme) <-- "RDBMS" (MySQL)
+(Datenbankverbindungen) --> (MySQL)
+(Datenbankverbindungen) --> (PostgreSQL)
+(Datenbankverbindungen) <-- "Veraltet" (mysql-Datenverbindung - alte Extension)
+(Datenbankverbindungen) <-- "Weiterentwicklung von MySQL" (mysqli-Datenverbindung - improved Extension)
+(Datenbankverbindungen) <-- "Rein OOP" (PDO-Datenverbindung)
+(Sicherheit) --> (Datenbankverwaltungssysteme)
+(Sicherheit) <-- "Sicherheitslücke" (SQL-Injection)
+(Sicherheit) <-- "vorbereitete Anweisung für ein Datenbanksystem / Verhindert SQL-Injectino" (Prepared-Statement)
+
+note right of (Datenbankverwaltungssysteme)
+DBMS Datenbank-Managementsystem ist eine Systemsoftware zum Erstellen und Verwalten von Datenbanken.
+end note
+
+note left of (MySQL)
+MySQL ist eines der weltweit verbreitetsten relationalen Datenbankverwaltungssysteme.
+end note
+
+note right of (PostgreSQL)
+PostgreSQL ist eine "object-relational database" (ORDBMS) mit Funktionen wie Tabellenvererbung und Funktionsüberladung,
+ während MySQL eine rein "relarelational database" (RDBMS) ist.
+end note
+
+note right of (Datenbankverbindungen)
+Art und weise wie auf die Datenbank zugegriffen wird.
+end note
+
+note right of (mysql-Datenverbindung - alte Extension)
+Die Mysql-Extension ist veraltet und arbeitet prozedural - Kein OOP -.
+ Die Performance ist eher tief.
+end note
+
+note right of (mysqli-Datenverbindung - improved Extension)
+MySQL-improved arbeitet prozedural und mit OOP, 
+hat eine hoheperforamnce und ist dadurch das es unkompliziert ist, weitveraltet.
+end note
+
+note right of (PDO-Datenverbindung)
+PDO ist rein OOP, weshalb es etwas weniger verbreitet ist, 
+hat eine hohe Performance und bietet eine Schnittstelle für viele Datenbanken an.
+end note
+
+note left of (SQL-Injection)
+SQL-Injection ist das Ausnutzen einer Sicherheitslücke in Zusammenhang mit SQL-Datenbanken.
+Sicherheitsfehler in einem Programm, das auf die Datenbank zugreift.
+end note
+
+note left of (Prepared-Statement)
+Mittels Prepared Statements können SQL-Injections effektiv verhindert werden,
+da das Datenbanksystem die Gültigkeit von Parametern prüft, bevor diese verarbeitet werden.
+Wenn ein Statement beispielsweise in einer Schlaufe verwendet wird,
+kann Prepared-Statement zu einem Geschwindigkeitsvorteil führen.
+end note
+
+@enduml
