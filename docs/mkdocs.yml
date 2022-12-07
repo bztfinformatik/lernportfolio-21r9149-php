@@ -114,6 +114,8 @@ nav:
           - MVC: "php/mvc.md"
           - MVC 101: "php/mvc_101.md"
           - Twig Template: "php/twig_template.md"
+          - Sessions & Cookies: "php/session_and_cookies.md"
+          
     - LB1:
           - 1. Abgabe: "LB1/abgabe1.md"  
     - LB2:
