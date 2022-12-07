@@ -1,0 +1,34 @@
+@startuml "concept map LB2"
+
+(Rendern von View) <--- "Views werden mit Twig gerendert" (Twig)
+(Twig) <--- "Funktion von Twig um ein Template zu befüllen" (if-Funktion bei Twig)
+(if-Funktion bei Twig) <--- "Empty kann in eine if-Bedingung eingesetzt werden" (empty-Funktion) 
+(Twig) <--- "Mocking mit Twig" (Mocking von Daten)
+(sanitzien von Daten) --->  "Die daten sind gesanitized bevor sie gerendert werden" (Rendern von View)
+
+
+note right of (sanitzien von Daten)
+Ungewollte Zeichen wie Abstände oder Umlaute werden entfernt.
+end note
+
+note left of (Twig)
+Twig ist eine Template Engine für PHP
+end note
+
+note right of (Rendern von View)
+Das laden von Ansichten und verwenden von Templates mit hilfe einer template engine wie Twig.
+end note
+
+note left of (if-Funktion bei Twig)
+Wenn die if-Bedingung zutrifft wird wird der teil zwischen '{% if BEDINGUNG %}' und '{% endif %}' gerendert.
+end note
+
+note right of (empty-Funktion)
+Mit der Empty-Funktion kann man überprüfen ob zum Beispiel eine Variable leer ist.
+end note
+
+note left of (Mocking von Daten)
+Einfügen von Fakedaten um Abläufe und Funktionen ohne eine Datenbank zu testen.
+end note
+@enduml
+@enduml

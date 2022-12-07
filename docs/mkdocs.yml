@@ -101,6 +101,8 @@ nav:
           - Tag 7: "reflexion/07.md"
           - Tag 8: "reflexion/08.md"
           - Tag 9: "reflexion/09.md"
+          - Tag 10: "reflexion/10.md"
+          - Tag 11: "reflexion/11.md"
     - PHP:
           - PHP Grundlagen: "php/php_grundlagen.md"
           - Rechnen mit Variablen: "php/rechnen_mit_variablen.md"
@@ -117,11 +119,16 @@ nav:
           - Sessions & Cookies: "php/session_and_cookies.md"
           
     - LB1:
-          - 1. Abgabe: "LB1/abgabe1.md"  
+          - 1. Abgabe: "LB1/abgabe1.md"
+          - 2. Abgabe: "LB1/abgabe2.md"
+          - 3. Abgabe: "LB1/abgabe3.md"
     - LB2:
-          - Concept-Map: "LB2/concept_map.md"    
+          - Concept-Map 1: "LB2/concept_map.md"
+          - Concept-Map 2: "LB2/concept_map2.md"
+          - Concept-Map 3: "LB2/concept_map3.md"
     - Appendix:
           - Docker Grundlagen: "appendix/docker.md"
           - 1. Programmierauftrag: "appendix/01programmierauftrag.md"
           - 2. Programmierauftrag: "appendix/02programmierauftrag.md"
           - SSR & CSR: "appendix/SSR_&_CSR.md"
+          - Regex: "appendix/regex.md"
