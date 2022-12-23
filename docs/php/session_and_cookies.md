@@ -122,7 +122,7 @@ setcookie("username","",time() - 3600);
 ````
 
 # Auftrag
-!!! abstract "Formular Bier Auftrag"
+!!! abstract "Gäste-Zähler"
     Für eine Homepage sollen Sie einen Gäste-Zähler erstellen, welche die Anzahl Aufrufe der Seite jeweils ausgibt.
     Dabei soll aber verhindert werden, dass jemand durch Aktualisieren des Browserfensters den Zähler erhöhen kann.
 
