@@ -127,6 +127,7 @@ nav:
           - Concept-Map 1: "LB2/concept_map.md"
           - Concept-Map 2: "LB2/concept_map2.md"
           - Concept-Map 3: "LB2/concept_map3.md"
+          - Concept-Map 4: "LB2/concept_map4.md"
     - Appendix:
           - Docker Grundlagen: "appendix/docker.md"
           - 1. Programmierauftrag: "appendix/01programmierauftrag.md"

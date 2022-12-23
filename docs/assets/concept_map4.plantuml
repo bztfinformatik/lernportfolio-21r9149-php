@@ -1,0 +1,63 @@
+@startuml "concept_map_4"
+
+(Global Variable) <-- "ist Globale Variable" ($_COOKIE)
+(Global Variable) <-- "ist Globale Variable" ($_SESSION)
+(Cookies) <-- "für Verwendung" ($_COOKIE)
+(Sessions) <-- "für Verwendung" ($_SESSION)
+(PHP ist zustandslos) <-- "Lösung" (Cookies)
+(PHP ist zustandslos) <-- "Lösung" (Sessions)
+(Sessions) <-- "vereinfacht Verwendung" (session_helper.php)
+(Sessions) <-- "verwendet" (Authorisierung Routen schützen)
+(Authorisierung Routen schützen) <-- "Rollen gespeichert" (JSON in Datenbank)
+
+
+note right of (Global Variable)
+  Eine globale Variable ist eine Variable,
+  die außerhalb aller Funktionen in einem Programm definiert 
+  ist und somit von überall aus dem Programm aus zugreifbar ist.
+end note
+
+note right of ($_COOKIE)
+  In PHP sind die $_COOKIE-Variablen ein Array, 
+  das von dem Browser des Benutzers gesendete Cookies enthält.
+end note
+
+note right of ($_SESSION)
+  In PHP wird die Superglobal-Variable $_SESSION verwendet, 
+  um Sitzungsdaten zu speichern.
+end note
+
+note left of (PHP ist zustandslos)
+  HTTP ist ein zustandsloses Protokoll, das bedeutet, 
+  Informationen werden zwischen den verschiedenen Aufrufen eines 
+  Besuchers nicht zwischengespeichert
+end note
+
+note left of (Sessions)
+  Wir verwendet um Daten eines Besuchers zwischen zu speichern, 
+  wie Benutzername, rolle usw.
+end note
+
+note right of (Cookies)
+  Cookies werden ähnlich wie Sessions dazu verwendet
+  um Daten während einer Folge von Aufrufen einer Website festzuhalten. 
+  Allerdings können die Daten über die Sitzung hinaus auf den Client gespiechert werden.
+end note
+
+note left of (session_helper.php)
+  Eine Klasse die das Verwenden von Sessions Vereinfacht.
+  Mit dem session_helper muss session_start() nicht in jedem file aufgerufen werden.
+end note
+
+note left of (Authorisierung Routen schützen)
+  Manche Seiten sollten nur von berechtigten Benutzer zugreiffbar sein.
+  Mit dem schützen der Route kann man teile einer Applikation vor unberechtigten
+  Benutzern schützen.
+end note
+
+note left of (JSON in Datenbank)
+  JSON ist ein Datentype mit welchen man Daten in die DB speichern kann.
+  In unserem Fall haben wir es für die Rollen verwendet.
+end note
+
+@enduml
